@@ -1,0 +1,17 @@
+/* Provisional tokens from the design direction proposal (28 Oct 2026). Not locked: change values here only. */
+:root {
+  --aspal: #12161c;
+  --subuh: #24305e;
+  --fajar: #f3a26b;
+  --kabut: #e9edf1;
+  --tinta: #1a1f26;
+  --cone: #ff5b1f;
+  --cone-ink: #b53a0b;
+  --slate: #8a96a3;
+  --marka: #f2c230;
+  --kanopi: #2f8f6b;
+
+  --font-display: 'Big Shoulders Display', 'Arial Narrow', system-ui, sans-serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-serif: 'Source Serif 4', Georgia, serif;
+}
