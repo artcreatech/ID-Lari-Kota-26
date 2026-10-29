@@ -1,0 +1,40 @@
+name: OSM roads for route maps
+
+# Downloads OSM roads for each race extent from Overpass, clips them with
+# tools/routes/route_tools.py and commits data/routes/<race>/<race>_osm_roads.*
+on:
+  workflow_dispatch:
+  push:
+    branches: [osm-route-roads]
+    paths:
+      - "tools/routes/**"
+      - ".github/workflows/osm-roads.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  roads:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r tools/routes/requirements.txt
+      - run: python tools/routes/fetch_osm.py
+      - run: python tools/routes/route_tools.py clip data/routes/osm_roads_raw.geojson
+      - uses: actions/upload-artifact@v4
+        with:
+          name: osm-roads
+          path: |
+            data/routes/*/*_osm_roads.*
+      - name: Commit clipped roads
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/routes/*/*_osm_roads.*
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "Update clipped OSM roads for route maps"
+          git push
