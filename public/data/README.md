@@ -23,4 +23,9 @@ Files the site loads at runtime. Every number has a `source_url`. Gaps stay blan
 - Borobudur 2026 is the quota; replace with the final count after 15 Nov.
 - `origins.csv` has no outside-region share for JAKIM or JRF. The impact floor formula needs one; until then use a range (20–40%), as in the projections.
 - `venues.geojson` points were placed by hand and are approximate (about 1 km). Fine for a national map; check before any street-level use.
+- Bromo has no 2025 count (the row filed as 2025 was the 2014 edition; fixed 11 Nov).
 - `event_counts.csv`: 2018–2023 still missing. The calendar archive at kalenderlari.com cuts its 2019 page off at 23 Nov, so 2019 is a floor.
+
+## Fact-check
+
+All figures were checked against their sources on 11 Nov 2026. See `docs/factcheck-2026-11-11.md` for fixes, unverifiable rows and story-copy notes.
