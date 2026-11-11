@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Lari Kota</title>
-    <meta name="description" content="Bagaimana maraton mengubah kota-kota Indonesia. How marathons are reshaping Indonesian cities." />
+    <meta name="description" content="Bagaimana maraton mengubah kota-kota Indonesia: seberapa cepat lombanya tumbuh, di mana rutenya, siapa yang datang, dan apa artinya bagi jalan dan ekonomi kota." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,21 +14,147 @@
     <script type="module" src="/src/main.js"></script>
   </head>
   <body>
-    <header class="masthead">
-      <p class="kicker">Lari Kota</p>
-      <h1>Sebelum matahari terbit, jalan protokol milik para pelari</h1>
-      <p class="dek">Placeholder opener (B01). The scrollytelling sections are built from <code>src/sections/</code>.</p>
-    </header>
+    <div class="course" aria-hidden="true"><div class="course-fill"></div><span class="course-km">0 km</span></div>
+    <button class="lang" type="button" disabled title="Versi bahasa Inggris segera hadir">ID · <span>EN segera</span></button>
 
-    <main id="story">
-      <section class="scrolly" id="demo" aria-label="Scrollama check">
-        <div class="sticky"><p id="demo-readout">Step 0</p></div>
-        <div class="steps">
-          <article class="step" data-step="1"><p>Step one: scroll position is tracked by Scrollama.</p></article>
-          <article class="step" data-step="2"><p>Step two: the sticky graphic updates on each step.</p></article>
-          <article class="step" data-step="3"><p>Step three: replace this demo with beats B02 to B05.</p></article>
-        </div>
-      </section>
-    </main>
+    <!-- B01 · Pembuka -->
+    <section class="scrolly opener" id="s0" aria-labelledby="b01">
+      <div class="sticky full">
+        <canvas aria-hidden="true"></canvas>
+        <p class="dots-label" aria-live="polite"></p>
+      </div>
+      <div class="steps">
+        <header class="step masthead" data-step="field">
+          <div class="card">
+            <p class="kicker">Lari Kota</p>
+            <h1 id="b01">Sebelum matahari terbit, jalan protokol Jakarta milik para pelari</h1>
+            <p class="dek">Pagi 13–14 Juni 2026, BTN Jakarta International Marathon menutup jalan-jalan yang biasanya macet untuk 45.500 orang. Setiap titik di layar adalah satu pelari.</p>
+          </div>
+        </header>
+        <article class="step" data-step="split">
+          <div class="card">
+            <p>Empat bulan kemudian, Jakarta Running Festival membawa lebih dari 37.000 pelari lagi ke Senayan. Dua lomba, satu kota, <b>82.500 orang</b> dalam satu tahun.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- S1 · Ledakan (B02–B05) -->
+    <section class="scrolly chart" id="s1" aria-label="Ledakan lari">
+      <div class="sticky"><figure><div class="graphic"></div><figcaption class="graphic-note"></figcaption></figure></div>
+      <div class="steps">
+        <p class="section-kicker">1 · Ledakan</p>
+        <article class="step" data-step="b02"><div class="card">
+          <h3>Dari 31.000 menjadi 82.500 pelari dalam dua tahun</h3>
+          <p>JAKIM tumbuh dari 15.000 pelari pada 2024 menjadi 45.500 pada 2026. Jakarta Running Festival naik dari 16.000 ke 37.000. Gabungan dua lomba besar ibu kota kini 2,7 kali ukurannya pada 2024.</p>
+        </div></article>
+        <article class="step" data-step="b03"><div class="card">
+          <h3>Hampir setiap kota besar kini punya maratonnya sendiri</h3>
+          <p>Satu grafik kecil untuk setiap lomba, jumlah pelari per tahun sejak 2012. Tahun tanpa angka resmi digambar sebagai arsiran, bukan nol, supaya lubangnya terlihat.</p>
+        </div></article>
+        <article class="step" data-step="b04"><div class="card">
+          <h3>Dua kecepatan: Jakarta melesat, yang lain dibatasi kuota</h3>
+          <p>JAKIM naik tiga kali lipat dalam dua tahun, sementara Maybank tumbuh 4% dan Jogja 11% pada 2026. Yang menahan mereka adalah kuota, bukan peminat: undian Borobudur 2019 menarik lebih dari 17.000 pendaftar untuk 8.000 slot.</p>
+        </div></article>
+        <article class="step" data-step="b05"><div class="card">
+          <h3>Apa yang sebenarnya dihitung dari jumlah pelari</h3>
+          <p>Sebagian besar peserta berlari 5K, 10K atau 21K. Dari 31.000 pelari JAKIM 2025, sekitar 4.000 menempuh maraton penuh 42K. Pocari Sweat Run Bandung 2025 mencatat 16.023 pelari di lokasi dan 30.435 lagi yang berlari secara virtual.</p>
+        </div></article>
+      </div>
+    </section>
+
+    <!-- S2 · Siapa yang mulai lebih dulu (B06–B09) -->
+    <section class="scrolly chart" id="s2" aria-label="Siapa yang mulai lebih dulu">
+      <div class="sticky"><figure><div class="graphic"></div><figcaption class="graphic-note"></figcaption></figure></div>
+      <div class="steps">
+        <p class="section-kicker">2 · Siapa yang mulai lebih dulu</p>
+        <article class="step" data-step="b06"><div class="card">
+          <h3>Bali yang memulai, dengan 147 pelari</h3>
+          <p>Lomba rutin pertama di Bali digelar di Karangasem pada 1999 dengan 147 pelari. Maybank menghidupkannya lagi di Gianyar pada 2012 dengan lebih dari 2.000 peserta, menjadikannya lomba tertua yang masih ada di daftar ini.</p>
+        </div></article>
+        <article class="step" data-step="b07"><div class="card">
+          <h3>Sebagian besar lomba ini belum berumur sepuluh tahun</h3>
+          <p>Tujuh dari sebelas lomba yang tahun mulainya diketahui baru lahir pada 2017 atau sesudahnya. JAKIM sendiri baru dimulai pada 2023, sebagai BTN Jakarta Run dengan 12.000 pelari.</p>
+        </div></article>
+        <article class="step" data-step="b08"><div class="card">
+          <h3>2020: tahun ketika jalanan tetap terbuka</h3>
+          <p>Jakarta Marathon batal, Pocari beralih ke virtual, Maybank berlari virtual selama dua tahun, dan Borobudur hanya melepas kelompok kecil pelari elite mengitari candi.</p>
+        </div></article>
+        <article class="step" data-step="b09"><div class="card">
+          <h3>Naik kelas di label World Athletics</h3>
+          <p>Maybank, Borobudur dan JAKIM kini sama-sama berlabel Elite. Borobudur naik ke Elite pada 2025, dan JAKIM melompat dari Basic pada 2025 ke Elite pada 2026. Race director JRF menyebut lombanya kini berlabel Gold.</p>
+        </div></article>
+      </div>
+    </section>
+
+    <div class="fajar-band" aria-hidden="true"></div>
+
+    <!-- S3 · Uang dan pendatang (B10–B12) -->
+    <section class="scrolly chart light" id="s3" aria-label="Uang dan pendatang">
+      <div class="sticky"><figure><div class="graphic"></div><figcaption class="graphic-note"></figcaption></figure></div>
+      <div class="steps">
+        <p class="section-kicker">3 · Uang dan pendatang</p>
+        <article class="step" data-step="b10"><div class="card">
+          <h3>Penyelenggara menyebut satu lomba memutar sekitar Rp100 miliar</h3>
+          <p>Dampak ekonomi terbaru yang dilaporkan per lomba, dari belanja langsung Rp170,8 miliar di Maybank sampai Rp67 miliar di Borobudur. Setiap batang menyebut jenis angkanya: survei, estimasi, proyeksi atau target.</p>
+        </div></article>
+        <article class="step" data-step="b11"><div class="card">
+          <h3>Satu lomba, empat angka</h3>
+          <p>Dampak JAKIM 2025 pernah disebut Rp122 miliar, Rp125 miliar, Rp127,1 miliar dan sekitar Rp155 miliar, tergantung siapa yang bicara dan kapan. Angka-angka ini sebaiknya dibaca sebagai klaim, bukan hasil audit.</p>
+        </div></article>
+        <article class="step" data-step="b12"><div class="card">
+          <h3>Siapa yang datang ke kota</h3>
+          <p>Sekitar 70% pelari Pocari Lombok datang dari luar NTB, dan 47% pelari Pocari Bandung dari Jabodetabek. JAKIM 2026 menarik 1.012 pelari mancanegara; Maybank, pelari dari 46 negara.</p>
+        </div></article>
+      </div>
+    </section>
+
+    <!-- S4 · Rute (B14–B15) -->
+    <section class="scrolly mapstory light" id="s4" aria-label="Rute">
+      <div class="sticky full"><div class="map" role="img" aria-label="Peta lomba lari di Indonesia"></div><p class="graphic-note map-note"></p></div>
+      <div class="steps">
+        <p class="section-kicker">4 · Rute</p>
+        <article class="step" data-step="b14"><div class="card">
+          <h3>Dua belas lomba di seluruh Nusantara</h3>
+          <p>Lingkaran menurut jumlah pelari terakhir yang tercatat. Jawa mendominasi, tetapi lomba-lomba terbaru lahir di Lombok dan Surabaya. Lomba tanpa angka resmi tetap ada di peta, hanya sebagai lingkaran kosong.</p>
+        </div></article>
+        <article class="step tall" data-step="jakim"><div class="card">
+          <h3>Saksikan rute tergambar sendiri: Jakarta</h3>
+          <p>BTN JAKIM berangkat dari Monas, menyusuri Thamrin dan Sudirman, dan finis di Gelora Bung Karno. Garis menebal seiring Anda menggulir.</p>
+        </div></article>
+        <article class="step tall" data-step="borobudur"><div class="card">
+          <h3>Borobudur: maraton di antara desa dan sawah</h3>
+          <p>Borobudur Marathon berangkat dan finis di Taman Lumbini, lalu memutar lewat desa-desa di sekitar candi. Edisi ke-10 berlangsung 15 November 2026 dengan kuota 12.500 pelari.</p>
+        </div></article>
+        <article class="step" data-step="end"><div class="card">
+          <p><b>Bab berikutnya: satu kota, satu jalan.</b> Penutupan jalan, keteduhan, dan warga yang tinggal di sepanjang rute JAKIM menyusul dalam bab kota.</p>
+        </div></article>
+      </div>
+    </section>
+
+    <!-- S6 · Giliran Anda (B22–B23) -->
+    <section class="explorer light" id="s6" aria-labelledby="b22">
+      <p class="section-kicker">5 · Giliran Anda</p>
+      <h2 id="b22">Pilih lomba dan tahunnya</h2>
+      <div class="ex-controls">
+        <label>Lomba <select id="ex-race"></select></label>
+        <label>Tahun <select id="ex-year"></select></label>
+      </div>
+      <div id="ex-card" class="ex-card" aria-live="polite"></div>
+
+      <h2 id="b23">Bagaimana kami mengetahuinya</h2>
+      <ul class="method">
+        <li>Angka dampak ekonomi adalah estimasi dari penyelenggara, sponsor atau survei pesanan mereka. Metodenya berbeda dan kadang direvisi, jadi tidak bisa dibandingkan langsung. JAKIM 2025 punya empat angka.</li>
+        <li>Jumlah pelari menggabungkan semua jarak kecuali disebut 42K. Angka Pocari menyebut pelari di lokasi; pelari virtual dihitung terpisah.</li>
+        <li>Kuota dan target digambar putus-putus atau kosong. Itu rencana, bukan hasil.</li>
+        <li>Tahun tanpa angka resmi dibiarkan kosong (arsir), tidak pernah diisi nol.</li>
+        <li>Garis rute JAKIM dan Borobudur di versi ini adalah draf dari jalan OpenStreetMap, bukan rute resmi.</li>
+        <li>Data peta: © kontributor OpenStreetMap, peta dasar OpenFreeMap.</li>
+      </ul>
+      <p class="downloads">Unduh data: <a href="./data/races.csv" download>races.csv</a> · <a href="./data/race_years.csv" download>race_years.csv</a> · <a href="./data/origins.csv" download>origins.csv</a> · <a href="./data/labels.csv" download>labels.csv</a> · <a href="./data/event_counts.csv" download>event_counts.csv</a> · <a href="./data/venues.geojson" download>venues.geojson</a></p>
+      <h3>Sumber</h3>
+      <ul id="sources" class="sources"></ul>
+      <p class="colophon">Lari Kota · data dan kode berlisensi CC0.</p>
+    </section>
   </body>
 </html>

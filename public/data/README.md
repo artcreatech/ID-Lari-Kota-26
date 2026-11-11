@@ -9,6 +9,8 @@ Files the site loads at runtime. Every number has a `source_url`. Gaps stay blan
 | `origins.csv` | race, year and metric: international runners, countries, share from outside the region | runner origin (B12) |
 | `venues.geojson` | race start/finish point | national map (B14) |
 | `event_counts.csv` | year: running events in Indonesia | opener / boom context |
+| `labels.csv` | race and year a World Athletics label was reported | label ladder (B09), explorer |
+| `routes/<race>_2026_route.geojson` | race: route line plus start, finish and landmark points | route beats (B15) |
 
 ## How to read the fields
 
@@ -24,3 +26,5 @@ Files the site loads at runtime. Every number has a `source_url`. Gaps stay blan
 - `origins.csv` has no outside-region share for JAKIM or JRF. The impact floor formula needs one; until then use a range (20–40%), as in the projections.
 - `venues.geojson` points were placed by hand and are approximate (about 1 km). Fine for a national map; check before any street-level use.
 - `event_counts.csv`: 2018–2023 still missing. The calendar archive at kalenderlari.com cuts its 2019 page off at 23 Nov, so 2019 is a floor.
+
+- `routes/*.geojson` are **draft illustrations**, not official courses: shortest paths on OSM roads between hand-picked waypoints (`scripts/draft_routes.py`). JAKIM draws about 26 km and Borobudur about 36 km. Replace with the traced routes before launch.
