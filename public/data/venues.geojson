@@ -1,0 +1,197 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "race_id": "maybank",
+    "name": "Maybank Marathon",
+    "venue": "Bali Safari Park, Gianyar",
+    "precision": "approximate (about 1 km); placed by hand, check against the race guide"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.355,
+     -8.583
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "race_id": "jrf",
+    "name": "Jakarta Running Festival (formerly Jakarta Marathon)",
+    "venue": "Gelora Bung Karno, Jakarta",
+    "precision": "approximate (about 1 km); placed by hand, check against the race guide"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.802,
+     -6.218
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "race_id": "bromo",
+    "name": "Bank Jatim Bromo Marathon",
+    "venue": "Plataran Bromo, Tosari",
+    "precision": "approximate (about 1 km); placed by hand, check against the race guide"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.893,
+     -7.902
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "race_id": "pocari_bandung",
+    "name": "Pocari Sweat Run Bandung",
+    "venue": "Balai Kota Bandung",
+    "precision": "approximate (about 1 km); placed by hand, check against the race guide"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.61,
+     -6.911
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "race_id": "borobudur",
+    "name": "Borobudur Marathon",
+    "venue": "Taman Lumbini, Borobudur",
+    "precision": "approximate (about 1 km); placed by hand, check against the race guide"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     110.204,
+     -7.605
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "race_id": "jogja",
+    "name": "Mandiri Jogja Marathon",
+    "venue": "Candi Prambanan",
+    "precision": "approximate (about 1 km); placed by hand, check against the race guide"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     110.491,
+     -7.752
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "race_id": "bekasi",
+    "name": "Bekasi Marathon",
+    "venue": "Kota Harapan Indah, Bekasi",
+    "precision": "approximate (about 1 km); placed by hand, check against the race guide"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.973,
+     -6.18
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "race_id": "citraland",
+    "name": "BCA CitraLand Marathon",
+    "venue": "CitraLand, Surabaya",
+    "precision": "approximate (about 1 km); placed by hand, check against the race guide"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.638,
+     -7.288
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "race_id": "jakim",
+    "name": "BTN Jakarta International Marathon",
+    "venue": "Monas, Jakarta (start; finish at GBK)",
+    "precision": "approximate (about 1 km); placed by hand, check against the race guide"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.827,
+     -6.175
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "race_id": "pocari_lombok",
+    "name": "Pocari Sweat Run Lombok",
+    "venue": "Pertamina Mandalika Circuit",
+    "precision": "approximate (about 1 km); placed by hand, check against the race guide"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.301,
+     -8.893
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "race_id": "isoplus",
+    "name": "Surabaya ISOPLUS Marathon",
+    "venue": "Balai Kota Surabaya",
+    "precision": "approximate (about 1 km); placed by hand, check against the race guide"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.747,
+     -7.259
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "race_id": "maros",
+    "name": "Maros Marathon",
+    "venue": "Maros (town centre; venue not found)",
+    "precision": "approximate (about 1 km); placed by hand, check against the race guide"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.573,
+     -5.006
+    ]
+   }
+  }
+ ]
+}
