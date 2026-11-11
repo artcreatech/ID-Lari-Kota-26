@@ -1,0 +1,52 @@
+race_id,year,runners,count_type,runners_42k,impact_rp_bn,impact_type,source_url,note
+maybank,2012,2000,total_min,,,,https://en.tempo.co/amp/572536/bali-marathon-aims-for-5000-participants,"More than 2,000"
+maybank,2013,3000,total_min,,,,https://en.tempo.co/amp/572536/bali-marathon-aims-for-5000-participants,"More than 3,000"
+maybank,2017,9367,total,,,,https://ekonomi.republika.co.id/berita/pe5y4e415/maybank-bali-marathon-libatkan-10749-pelari,
+maybank,2018,10749,total,,,,https://ekonomi.republika.co.id/berita/pe5y4e415/maybank-bali-marathon-libatkan-10749-pelari,
+maybank,2025,13600,total,,170.8,survey_direct,https://investortrust.id/financial/81205/dampak-langsung-penyelenggaraan-maybank-marathon-2025-ke-perekonomian-bali-capai-rp-170-8-miliar,"Katadata survey; Rp225.5 bn indirect; 52 countries"
+maybank,2026,14180,total,4279,300,target,https://investortrust.id/financial/113808/peserta-maybank-marathon-2026-tembus-14180-ini-kategori-terbanyak-yang-diikuti,"Impact is the Rp300 bn target (https://finansial.bisnis.com/read/20260812/90/1995694/maybank-marathon-bidik-perputaran-ekonomi-rp300-miliar); result not yet found"
+jrf,2013,10000,approx,,,,https://en.wikipedia.org/wiki/Jakarta_Marathon,Jakarta Marathon
+jrf,2014,14000,approx,,,,https://en.wikipedia.org/wiki/Jakarta_Marathon,Jakarta Marathon
+jrf,2015,15000,approx,,,,https://en.wikipedia.org/wiki/Jakarta_Marathon,Jakarta Marathon; 53 countries
+jrf,2016,16000,approx,,,,https://m.beritajakarta.id/en/read/18257/16-thousands-people-enlivened-jakarta-marathon-2016,Jakarta Marathon
+jrf,2018,12000,total,,,,https://www.bola.com/ragam/read/3678515/jakarta-maraton-terus-berkembang-sejak-2013,"Jakarta Marathon; same article's captions say 12,500"
+jrf,2019,16500,total_min,,,,https://www.setneg.go.id/baca/index/electric_jakarta_marathon_kembali_digelar_di_tahun_2019,"Jakarta Marathon; more than 16,500"
+jrf,2022,14300,total,,,,https://en.wikipedia.org/wiki/Jakarta_Marathon,"Jakarta Marathon; a pre-race report said 15,300 registered"
+jrf,2024,16000,approx,,,,https://swa.co.id/read/451839/foto-bisnis-swa-bni-menarik-16-ribu-orang-di-wondr-jakarta-running-festival,First year as Jakarta Running Festival
+jrf,2025,27300,total,,160,survey,https://bni.co.id/en-us/home/bni-news/news/articleid/25639,"Impact ~Rp160 bn, Katadata survey (https://katadata.co.id/lifestyle/gaya-hidup/6ad9e79f266e2/didukung-kic-dampak-ekonomi-jrf-2026-diprediksi-lampaui-2025)"
+jrf,2026,37000,total,,,,https://investortrust.id/financial/120385/jakarta-running-festival-2026-bca-dukung-budaya-lari-di-indonesia,"48 countries, 1,000+ international; Katadata impact study under way"
+bromo,2013,900,total_min,,,,https://www.runsociety.com/news/bromo-marathon-2014-get-immersed-in-the-beautiful-mountain-sights-of-tengger-indonesia,"Over 900"
+bromo,2017,1826,total,,,,https://jatim.antaranews.com/foto/243519/bromo-marathon-2017,36 countries
+bromo,2024,1600,total,,,,https://pasuruankab.go.id/e-paper/ribuan-pelari-dari-22-negara-di-dunia-ikuti-bromo-marathon,22 countries
+bromo,2025,1602,starters,,,,https://jatim.antaranews.com/foto/228744/bromo-marathon,"2,167 registered"
+pocari_bandung,2014,5150,total,,,,https://www.kompas.com/sports/read/2024/07/21/16210218/statistik-pertumbuhan-pelari-di-pocari-sweat-run-2024-terus-melonjak?page=all,"Held in Tangerang, not Bandung; other years in this article not yet transcribed (site blocks automated reading)"
+pocari_bandung,2024,15817,on_site,,,,https://www.popbela.com/career/inspiration/pocari-sweat-run-indonesia-2024-hajatan-besar-para-pelari-tanah-air-00-9z5cw-cmfjhy,Last year with a 42K in Bandung
+pocari_bandung,2025,16023,on_site,0,,,https://www.popbela.com/career/inspiration/serunya-pocari-sweat-run-indonesia-2025-bandung-00-9z5cw-sxcf5v/amp,"Plus 30,435 virtual runners"
+pocari_bandung,2026,16000,on_site,0,89.4,reported_direct,https://www.medcom.id/nasional/peristiwa/5b2y95dN-pocari-sweat-run-2026-di-bandung-catat-dampak-ekonomi-rp89-4-miliar,"10K and 21K only; impact for West Java"
+borobudur,2017,8754,total,,,,https://m.jpnn.com/news/menpora-borobudur-marathon-momentum-bangkitkan-wisata,
+borobudur,2018,10000,approx,,,,https://jatengprov.go.id/?p=34929,
+borobudur,2019,11000,total_min,,29,estimate_min,https://news.republika.co.id/berita/q133c7366/borobudur-marathon-2019-raup-lebih-dari-rp-29-miliar,"At least 11,000; 350 international from 35 countries; impact 'more than Rp29 bn'"
+borobudur,2022,5000,quota,,,,https://jateng.antaranews.com/berita/449285/borobudur-marathon-12-13-november-2022-pacu-kebangkitan-ekonomi-kaderisasi-atlet,"Quota; 2020 and 2021 were elite-only and are left blank"
+borobudur,2023,10453,total,,,,https://jatengprov.go.id/?p=146743,
+borobudur,2025,11500,total,,67,reported,https://jatengprov.go.id/publik/beri-kesempatan-bagi-pelari-kuota-borobudur-marathon-ditambah/,"38-39 countries; Rp72-74 bn estimated before the race"
+borobudur,2026,12500,quota,,,,https://jatengprov.go.id/publik/beri-kesempatan-bagi-pelari-kuota-borobudur-marathon-ditambah/,Race on 15 Nov 2026; replace with final count
+jogja,2017,6500,total,,,,https://en.tempo.co/read/868842/6500-people-join-jogja-marathon,"detik says 6,000"
+jogja,2018,8000,total,,,,https://news.detik.com/adv-nhl-detikcom/d-3974778/mandiri-jogja-marathon-lari-sehat-sinergi-dengan-wisata-budaya,
+jogja,2022,6000,approx,,,,https://daerah.republika.co.id/berita/rgmwt9291/mandiri-jogja-marathon-birukan-candi-prambanan,
+jogja,2023,8000,total,,,,https://ekonomi.republika.co.id/berita/rwgd8x423/jadi-peserta-mandiri-jogja-marathon-erick-thohir-seru-banget,18 countries
+jogja,2025,9200,total,,,,https://rmol.id/olahraga/read/2025/06/22/670835/rekor-mandiri-jogja-marathon-2025-tembus-9-200-pelari,17 countries
+jogja,2026,10200,total,,,,https://finansial.bisnis.com/read/20260618/90/1981735/mandiri-jogja-marathon-2026-diikuti-10200-pelari-dari-17-negara,"Record; 17 countries"
+bekasi,2024,2200,total_min,,,,https://digilib.esaunggul.ac.id/public/UEU-Article-37317-5_1117.pdf,"2,200+; 2025 count not published"
+citraland,2022,1300,approx,,,,https://www.suarasurabaya.net/olahraga/2026/bca-citraland-marathon-2026-hadirkan-rute-baru-targetkan-lebih-dari-6-000-pelari/?page=all,
+citraland,2023,3500,total,,,,https://www.suarasurabaya.net/olahraga/2026/bca-citraland-marathon-2026-hadirkan-rute-baru-targetkan-lebih-dari-6-000-pelari/?page=all,
+citraland,2024,5000,total,,,,https://www.suarasurabaya.net/olahraga/2026/bca-citraland-marathon-2026-hadirkan-rute-baru-targetkan-lebih-dari-6-000-pelari/?page=all,
+citraland,2025,6000,total,,,,https://www.suarasurabaya.net/olahraga/2026/bca-citraland-marathon-2026-hadirkan-rute-baru-targetkan-lebih-dari-6-000-pelari/?page=all,"Another report says 5,500"
+citraland,2026,6000,target,,,,https://www.suarasurabaya.net/olahraga/2026/bca-citraland-marathon-2026-hadirkan-rute-baru-targetkan-lebih-dari-6-000-pelari/?page=all,"Target 6,000+; race on 6 Dec 2026"
+jakim,2023,12000,total,,,,https://jakim.id/eng/marathon,As BTN Jakarta Run
+jakim,2024,15000,approx,,,,https://investortrust.id/lifestyle/31009/heru-budi-jakarta-international-marathon-2024-diikuti-15000-peserta,
+jakim,2025,31000,total,4000,127.1,organizer_estimate,https://katadata.co.id/amp/berita/nasional/686132fe4a3f4/btn-jakarta-international-marathon-2025-sukses-digelar-diikuti-31-ribu-pelari,"Impact Rp127.1 bn IMRR estimate (https://www.industry.co.id/read/143261/dahsyat-dampak-ekonomi-btn-jakim-2025-tembus-rp127-miliar); BTN later cited ~Rp155 bn and its CEO Rp122 bn"
+jakim,2026,45500,total,8000,225,projection,https://katadata.co.id/finansial/korporasi/6a2e8e0c4aa06/btn-jakim-2026-pecah-rekor-45000-pelari-bawa-jakarta-ke-panggung-maraton-dunia,"42K 8,000-8,600; 1,012 international; impact is the organizer projection (https://infobanknews.com/btn-jakim-2026-perkuat-sport-tourism-jakarta-diproyeksi-dongkrak-ekonomi-hingga-rp225-m)"
+pocari_lombok,2025,9000,total_min,,100,estimate,https://www.detik.com/bali/nusra/d-8110993/wamendagri-ariel-hingga-irfan-bachdim-ikut-lari-maraton-di-mandalika,"9,000+; about 70% from outside NTB; impact ~Rp100 bn (https://www.goodnewsfromindonesia.id/2025/11/01/ada-berapa-event-lari-di-indonesia-dan-kontribusi-ekonominya)"
+pocari_lombok,2026,10000,quota,,95,estimate,https://investortrust.id/lifestyle/92255/pocari-sweat-run-2026-siap-digelar-di-bandung-dan-lombok-target-60-ribu-peserta,"Final count not found; impact ~Rp95 bn from a single report (https://www.qoo10.co.id/bisnis/497801/pocari-sweat-run-lombok-2026-gerakkan-ekonomi-lokal-rp95-miliar/)"
+isoplus,2025,9000,approx,,,,https://www.industry.co.id/read/145561/9000-pelari-meriahkan-surabaya-isoplus-marathon-2025,42K about 4% of the field
+isoplus,2026,10000,target,,,,https://www.antaranews.com/berita/5759345/dari-lintasan-kota-bercerita,"10,000+ scheduled; final count not found"
